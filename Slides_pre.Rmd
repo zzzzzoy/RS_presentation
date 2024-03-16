@@ -15,4 +15,36 @@ output:
 ---
 
 class: background, middle, center
+```{r setup, include=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields = c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib(, check = FALSE)
+```
+
 #**Timeline and Budget**
+---
+
+#Project Timeline
+
+---
+
+#Budget Breakdown
+![A table of budget](image/budget.png)
+---
+
+class: background, middle, center
+#**Summary**
+
+---
+
+#References
+
+```{r ref-list, echo=FALSE, results='asis', warning=FALSE}
+PrintBibliography(myBib)
+```
