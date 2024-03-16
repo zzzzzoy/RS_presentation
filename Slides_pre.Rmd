@@ -12,21 +12,58 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+
+---
+#Slide 1
+
+
+---
+#UN Sustainable Development Goals
+.pull-left[
+##Goal 6 
+###CLEAN WATER AND SANITATION
+]
+.pull-right[
+##Goal 14 
+###LIFE BELOW WATER
+]
+---
+The Sendai Framework focuses on the adoption of measures which address the **three dimensions of disaster risk** (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to **prevent the creation of new risk, reduce existing risk and increase resilience**.
+- Priority 1: Understanding disaster risk
+- Priority 2: Strengthening disaster risk governance to manage disaster risk  
+- Priority 3: Investing in disaster risk reduction for resilience  
+- Priority 4: Enhancing disaster preparedness for effective response and to “Build Back Better” in recovery, rehabilitation and reconstruction
+
+---
+Priority 1: Understanding disaster risk
+23. Policies and practices for disaster risk management should be based on an understanding of disaster risk in all its dimensions of vulnerability, capacity, exposure of persons and assets, hazard characteristics and the environment. Such knowledge can be leveraged for the purpose of pre-disaster risk assessment, for prevention and mitigation and for the development and implementation of appropriate preparedness and effective response to disasters.
+
+---
+#UNEP and oil spills in Nigeria
+United Nations Environment Programme (UNEP) has conducted assessments and published reports on the environmental impacts of oil spills in Nigeria, particularly in the Niger Delta region. These reports, such as the 2011 Environmental Assessment of Ogoniland, provide valuable insights into the extent and consequences of oil pollution in the country.
+
+---
+class: inverse,center,middle
+Unclear what information is used to guide responses.
+
+---
+#Current Semarang Resilience Strategy
+The Petroleum Act, Oil Pipelines Act, EIA Act, NOSDRA Act, NESREA Act, NDDC Act, and DPR Guidelines and Standards. 
+- Aim to prevent oil spills, ensure proper waste management, and hold oil companies accountable for their environmental performance. 
+- However, the effectiveness of this regulatory framework is limited by factors such as weak enforcement, inadequate resources, and overlapping responsibilities among regulatory agencies.
+
+---
+#Local organizations
+
+---
+#Local organizations
+Oil Spill Response and Clean-up The National Oil Spill Detection and Response Agency (NOSDRA) 
+- Responsible for coordinating oil spill response and clean-up efforts in Nigeria. 
+- Works closely with the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies to detect, monitor, and respond to oil spill incidents. 
+- The overall effectiveness of oil spill response and clean-up in the Niger Delta region remains limited due to factors such as delayed response, inadequate resources, and insufficient technical expertise.
 ---
 
 class: background, middle, center
-```{r setup, include=FALSE}
-library(RefManageR)
-BibOptions(check.entries = FALSE,
-           bib.style = "authoryear",
-           cite.style = "authoryear",
-           style = "markdown",
-           hyperlink = TRUE,
-           dashed = FALSE,
-           no.print.fields = c("doi", "url", "urldate", "issn"))
-myBib <- ReadBib(, check = FALSE)
-```
-
 #**Timeline and Budget**
 ---
 
@@ -45,6 +82,3 @@ class: background, middle, center
 
 #References
 
-```{r ref-list, echo=FALSE, results='asis', warning=FALSE}
-PrintBibliography(myBib)
-```
