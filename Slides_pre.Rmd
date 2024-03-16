@@ -1,11 +1,12 @@
 ---
-title: "Presentation Omg"
-subtitle: "⚔<br/>with xaringan"
-author: "aaaaaa"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Potential Remedies to Oil Spill Pollution"
+subtitle: "Niger Delta of Nigeria"
+institute: "CASA0023"
+author: "Y.Li, Y.Niu, Y.Yang, Z.Ouyang"
+date: "2024/3/19"
 output:
   xaringan::moon_reader:
+    css: ["default", "default-fonts", "style.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,6 +14,5 @@ output:
       countIncrementalSlides: false
 ---
 
-class: center
-#Slide 1
-
+class: background, middle, center
+#**Timeline and Budget**
