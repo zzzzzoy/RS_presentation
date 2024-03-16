@@ -12,11 +12,6 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-
----
-#Slide 1
-
-
 ---
 #UN Sustainable Development Goals
 .pull-left[
@@ -68,7 +63,11 @@ class: background, middle, center
 ---
 
 #Project Timeline
+1. The project is scheduled to be completed in 12 weeks.
 
+1. Project Management Institute (PMI) breaks down the project lifecycle into the following five phases of project management: initiation, planning, execution, monitoring and control, closure. 
+
+![A table of timeline](image/Timeline.png)
 ---
 
 #Budget Breakdown
