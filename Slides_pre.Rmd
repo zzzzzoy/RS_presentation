@@ -14,7 +14,20 @@ output:
       countIncrementalSlides: false
 
 ---
-#Slide 1
+class: center,middle
+#Data and Methods
+---
+##Geospatial data
+- Oil spill data
+- Oil well data
+- Oil pipelines data
+
+##EO data
+- Land cover data
+- SPOT 6 DEM and Imagery
+
+## Other
+- soil map data
 
 
 ---
