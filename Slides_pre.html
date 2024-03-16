@@ -4,7 +4,7 @@
     <title>Potential Remedies to Oil Spill Pollution</title>
     <meta charset="utf-8" />
     <meta name="author" content="Y.Li, Y.Niu, Y.Yang, Z.Ouyang" />
-    <script src="libs/header-attrs-2.26/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" type="text/css" />
@@ -30,6 +30,7 @@ class: center, middle, inverse, title-slide
 ]
 
 ---
+
 
 #UN Sustainable Development Goals
 .pull-left[
@@ -74,6 +75,38 @@ Oil Spill Response and Clean-up The National Oil Spill Detection and Response Ag
 - Responsible for coordinating oil spill response and clean-up efforts in Nigeria. 
 - Works closely with the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies to detect, monitor, and respond to oil spill incidents. 
 - The overall effectiveness of oil spill response and clean-up in the Niger Delta region remains limited due to factors such as delayed response, inadequate resources, and insufficient technical expertise.
+---
+class: center,middle
+#Data and Methods
+---
+##Geospatial data
+- Oil spill data
+- Oil well data
+- Oil pipelines data
+
+##EO data
+- Land cover data(10m resolution)
+- SPOT 6 DEM and Imagery(20m resolution)
+
+##Other
+- soil map data
+
+---
+##Visualization
+- GIS-based Kernel Density
+- distribution and concentration of oil facilities
+- a single map to visualize clustering and distribution 
+---
+##Risk assessment
+- GIS-based fuzzy logic model (FLM)
+- five classes: Very High risk (VHR), High risk (HR), Moderate risk (MR), Low risk (LR), and Very Low risk (VLR)
+###hazard map
+- oil facilities or oil well, flow station, terminal, and pipeline
+###vulnerability map
+- land use/land cover, soil type, and topographic curvature
+###risk assessment map
+- integration of the generated hazard and vulnerability maps
+
 ---
 
 class: background, middle, center
