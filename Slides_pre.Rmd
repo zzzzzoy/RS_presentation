@@ -41,47 +41,55 @@ United Nations Environment Programme (UNEP) has conducted assessments and publis
 
 These reports, such as the 2011 Environmental Assessment of Ogoniland, provide valuable insights into the extent and consequences of oil pollution in the country.
 
-.pull-left[
-```{r echo=FALSE,out.width='47%',fig.align='center'}
+
+```{r echo=FALSE,out.width='30%',fig.align='center'}
 knitr::include_graphics('image/UNEP-2011.jpg')
 ```
-]
-.pull-right[
-```{r echo=FALSE,fig.align='left'}
-knitr::include_graphics('image/OIP.jpg')
-```
-]
+
 ---
 #The Sendai Framework
 The Sendai Framework focuses on the adoption of measures which address the **three dimensions of disaster risk** (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to **prevent the creation of new risk, reduce existing risk and increase resilience**.
 - Priority 1: Understanding disaster risk
+
 - Priority 2: Strengthening disaster risk governance to manage disaster risk  
+
 - Priority 3: Investing in disaster risk reduction for resilience  
+
 - Priority 4: Enhancing disaster preparedness for effective response and to "Build Back Better" in recovery, rehabilitation and reconstruction
 
 ---
 #The Sendai Framework
 ##Priority 1: Understanding disaster risk
-23. Policies and practices for disaster risk management should be based on an understanding of disaster risk in all its dimensions of **vulnerability, capacity, exposure of persons and assets, hazard characteristics and the environment**. Such knowledge can be leveraged for the purpose of pre-disaster risk assessment, for prevention and mitigation and for the development and implementation of appropriate preparedness and effective response to disasters.
+- Policies and practices for disaster risk management should be based on an understanding of disaster risk in all its dimensions of **vulnerability, capacity, exposure of persons and assets, hazard characteristics and the environment**.
+
+- Such knowledge can be leveraged for the purpose of **pre-disaster risk assessment**, for prevention and mitigation and for the development and implementation of appropriate preparedness and effective response to disasters.
+---
+#Oil Spill Response and Clean-up 
+
+```{r echo=FALSE,out.width='60%',fig.align='center'}
+knitr::include_graphics('image/Pyramid lists.jpg')
+```
+---
+#Oil Spill Response and Clean-up 
+
+- Nigeria has a comprehensive legal and regulatory framework governing oil production and waste management, like the Petroleum Act, Oil Pipelines Act, EIA Act, NOSDRA Act, NESREA Act, NDDC Act, and DPR Guidelines and Standards. 
+
+- However, the overall effectiveness still remains **limited** due to factors like **delayed response, inadequate resources, and insufficient technical expertise**.
+
+```{r echo=FALSE,out.width='50%',fig.align='center'}
+knitr::include_graphics('image/OIP.jpg')
+```
 ---
 #Oil Spill Response and Clean-up 
 ###The National Oil Spill Detection and Response Agency (NOSDRA) :the principal agency 
 - Coordinate oil spill **preparedness, detection, response, and remediation efforts** across federal, state, and local government levels. 
+
 - Enforce compliance with environmental regulations, conducting investigations into oil spills, and implementing measures to **prevent future incidents**. 
 
 NOSDRA also works closely with **the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies **to detect, monitor, and respond to oil spill incidents. 
 ```{r echo=FALSE,out.width='30%',fig.align='center'}
 knitr::include_graphics('image/NOSDRA.jpg')
 ```
-
----
-#Oil Spill Response and Clean-up 
-Nigeria has a comprehensive legal and regulatory framework governing oil production and waste management, including the Petroleum Act, Oil Pipelines Act, EIA Act, NOSDRA Act, NESREA Act, NDDC Act, and DPR Guidelines and Standards. 
-```{r echo=FALSE, out.width='40%', fig.align='center'}
-knitr::include_graphics('image/Pyramid lists.jpg')
-```
-
-However, the overall effectiveness still remains **limited** due to factors like **delayed response, inadequate resources, and insufficient technical expertise**.
 ---
 class: center,middle
 #Data and Methods
