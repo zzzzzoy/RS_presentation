@@ -12,8 +12,56 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+---
+class: center,middle
+#Problem:context & background
+---
+#People of the Niger Delta Suffer from Oil Spills for Over Fifty Years
+```{r echo=FALSE, out.width='48%',fig.show='hold'}
+knitr::include_graphics('image/oil-spill.jpg')
+```
+```{r echo=FALSE, out.width='48%',fig.show='hold'}
+knitr::include_graphics('image/gas-flare.jpg')
+```
 
+<center>Image credit: [As Shell, Eni quit Niger Delta, state-backed report describes legacy of carnage](https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/)
+---
+#Location
+* The Niger Delta region, situated in **southern Nigeria**,is formed by the alluvial waters of the **Niger River**.
 
+* The Niger Delta is the **largest wetland** in Africa and among the largest globally.
+
+```{r echo=FALSE,out.width='45%',out.height=='35%',fig.align='center'}
+knitr::include_graphics('image/STS61C-42-72.jpg')
+```
+<center>Source:[Wikipedia-The Niger Delta](https://en.wikipedia.org/wiki/Niger_Delta)
+---
+#Problem statement
+* Over the past 50 years, it's estimated that more than **1.5 million tons of oil** have spilled in the Niger Delta.
+
+* Residential areas in **nine districts** of the delta suffer from **oil spills** every year due to **accidental discharges** and **operational spills**.
+
+```{r echo=FALSE, out.width='60%',fig.align='center'}
+knitr::include_graphics('image/niger 1.jpg')
+```
+<center>Source:[Akinola S.,2020](https://www.sciencedirect.com/science/article/pii/S0269749120362333)
+
+---
+#Impact
+
+##Environmental
+- Massive environmental degradation
+- Loss of biodiversity
+- Vegetation removal
+
+##Economic
+- Agricultural lands therein have become unproductive
+- Fishing unsustainable
+
+##Social
+- The health hazards posed by nearby oil wells and facilities
+- The deplorable state of the natural environment further depreciates the standard of living of the Niger Delta inhabitants
+- Triggered socio-environmental upheavals
 ---
 class: center,middle
 #Policies
