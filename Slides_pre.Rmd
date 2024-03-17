@@ -124,5 +124,5 @@ class: background, middle, center
 #References
 Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204. Available at: https://doi.org/10.1007/s12665-020-08957-w.
 
-Wang, H. *et al. (2022)* ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. Available at: https://doi.org/10.1016/j.oceaneng.2022.110569.
+Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. Available at: https://doi.org/10.1016/j.oceaneng.2022.110569.
 
