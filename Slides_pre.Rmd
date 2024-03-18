@@ -15,6 +15,7 @@ output:
 ---
 class: background,center,middle
 #**Problem:context & background**
+
 ---
 #People of the Niger Delta Suffer from Oil Spills for Over Fifty Years
 ```{r echo=FALSE, out.width='48%',fig.show='hold'}
