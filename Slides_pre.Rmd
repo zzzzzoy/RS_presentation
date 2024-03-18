@@ -246,14 +246,18 @@ class: background, middle, center
 .pull-left[
 ##Limitations
 * Secondary pollution caused by remediation measures
+
 * Possible economic losses (due to reduced oil exports)
+
 * political and legal obstacles
 ]
 
 .pull-right[
 ##Mitigation
 * environmentally sustainable cleanup strategies
+
 * Economic diversification and increased social participation
+
 * Strengthen communication with the government
 ]
 ---
@@ -261,13 +265,16 @@ class: background, middle, center
 #**Summary**
 ---
 #Summary
-The Niger Delta has long suffered from the Dangers of oil spills, and the public has generally demanded effective oil spill management. However, efforts to contain these leaks are hampered by a lack of accurate and real-time information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
+The Niger Delta has long suffered from the dangers of oil spills, and the public has generally demanded <span style="color:#4487CC;">**effective**</span> oil spill management. However, efforts to contain these leaks are hampered by a lack of <span style="color:#4487CC;">**accurate**</span> and <span style="color:#4487CC;">**real-time**</span> information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
 
-Impact of this project：
-- Enhance the health and well-being of residents
-- Stimulate economic development and create job opportunities
-- Foster environmental sustainability and resilience
-- promote social stability and enhance community safety
+###Impact of this project：
+- Enhance the **health** and **well-being** of residents
+
+- Stimulate **economic** development and create **job opportunities**
+
+- Foster **environmental** sustainability and resilience
+
+- promote **social** stability and enhance **community** safety
 ---
 #References
 “AN ENVIRONMENTAL GENOCIDE.” Report.bayelsacommission.org, Available at: https://report.bayelsacommission.org/.
