@@ -14,7 +14,7 @@ output:
       countIncrementalSlides: false
 ---
 class: background,center,middle
-#Problem:context & background
+#**Problem:context & background**
 ---
 #People of the Niger Delta Suffer from Oil Spills for Over Fifty Years
 ```{r echo=FALSE, out.width='48%',fig.show='hold'}
@@ -27,7 +27,7 @@ knitr::include_graphics('image/gas-flare.jpg')
 ---
 #Location
 * The Niger Delta region, situated in **southern Nigeria**,is formed by the alluvial waters of the **Niger River**.
-* The Niger Delta is the **largest wetland** in Africa and among the largest globally.This region spans approximately 70,000 square kilometers and has diverse ecosystems, including mangroves, swamps, and tropical rainforests.
+* The Niger Delta is the **largest wetland** in Africa and among the largest globally.This region spans approximately **70,000** square kilometers and has **diverse ecosystems**, including mangroves, swamps, and tropical rainforests.
 ```{r echo=FALSE,out.width='45%',out.height=='35%',fig.align='center'}
 knitr::include_graphics('image/STS61C-42-72.jpg')
 ```
@@ -52,8 +52,8 @@ knitr::include_graphics('image/niger 1.jpg')
 <div id="Environmental" class="tab-content">
   <ul>
     <li>Massive environmental degradation</li>
-    <li>Loss of biodiversity</li>
     <li>Vegetation removal</li>
+    <li>Loss of biodiversity</li>
   </ul>
 </div>
 
@@ -67,7 +67,7 @@ knitr::include_graphics('image/niger 1.jpg')
 <div id="Social" class="tab-content" style="display:none">
   <ul>
     <li>The health hazards posed by nearby oil wells and facilities</li>
-    <li>The deplorable state of the natural environment further depreciates the standard of living</li>
+    <li>loss of jobs and heightened restiveness often ensue</li>
     <li>Triggered socio-environmental upheavals</li>
   </ul>
 </div>
@@ -97,10 +97,11 @@ function showContent(tabName, event) {
 }
 </script>
 ---
-
+class: background,center,middle
+###Therefore, we plan to use earth observation data to accurately detect the **distribution and concentration** of oil facilities in the Nigeria Delta region and monitor the **oil spill risk levels** in different areas. This allows us to respond to oil spills promptly and accurately and manage them effectively
 ---
 class: background,center,middle
-#Policies
+#**Policies**
 ---
 #UN Sustainable Development Goals
 .pull-left[
@@ -175,8 +176,8 @@ NOSDRA also works closely with **the Department of Petroleum Resources (DPR), th
 knitr::include_graphics('image/NOSDRA.jpg')
 ```
 ---
-class: center,middle
-#Data and Methods
+class:background,center,middle
+#**Data and Methods**
 ---
 ##Geospatial data
 - Oil spill data
@@ -231,14 +232,42 @@ class: background, middle, center
 #Budget Breakdown
 ![A table of budget](image/budget.png)
 ---
+#Limitations & Mitigation
+.pull-left[
+##Limitations
+* Secondary pollution caused by remediation measures
+* Possible economic losses (due to reduced oil exports)
+* political and legal obstacles
+]
 
+.pull-right[
+##Mitigation
+* environmentally sustainable cleanup strategies
+* Economic diversification and increased social participation
+* Strengthen communication with the government
+]
+---
 class: background, middle, center
 #**Summary**
-
 ---
+#Summary
+The Niger Delta has long suffered from the adverse effects of oil spills, and the public has generally demanded effective oil spill management. However, efforts to contain these leaks are hampered by a lack of accurate information. To this end, we aim to leverage geospatial technology to accurately identify and manage oil spills, providing targeted and effective methods to mitigate environmental damage.
 
+Impact of this project：
+- Enhance the health and well-being of residents
+- Stimulate economic development and create job opportunities
+- Foster environmental sustainability and resilience
+- promote social stability and enhance community safety
+---
 #References
 Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204. Available at: https://doi.org/10.1007/s12665-020-08957-w.
 
 Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. Available at: https://doi.org/10.1016/j.oceaneng.2022.110569.
+
+“AN ENVIRONMENTAL GENOCIDE.” Report.bayelsacommission.org, Available at: https://report.bayelsacommission.org/.
+
+“As Shell, Eni Quit Niger Delta, State-Backed Report Describes Legacy of Carnage.” Mongabay Environmental News, 16 May 2023, Available at: https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/
+
+Ekott, Ini. “For Weary Niger Delta Residents, Shocking Oil Pollution Report Offers Little Hope.” Mongabay Environmental News, 16 May 2023, news.Available at: https://news.mongabay.com/2023/05/for-weary-niger-delta-residents-shocking-oil-pollution-report-offers-little-hope/
+
 
