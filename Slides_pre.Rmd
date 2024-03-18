@@ -120,6 +120,8 @@ knitr::include_graphics('image/UN14.jpg')
 ###LIFE BELOW WATER
 Sustainably manage and protect marine and coastal ecosystems from **pollution**, as well as address the impacts of ocean acidification. 
 ]
+
+<center>Source:[The 2030 Agenda for Sustainable Development](https://sdgs.un.org/goals)
 ---
 #UNEP and Nigeria           
 United Nations Environment Programme (UNEP) has conducted assessments and published reports on the environmental impacts of oil spills in Nigeria, particularly in the Niger Delta region. 
@@ -127,10 +129,10 @@ United Nations Environment Programme (UNEP) has conducted assessments and publis
 These reports, such as the 2011 Environmental Assessment of Ogoniland, provide valuable insights into the extent and consequences of oil pollution in the country.
 
 
-```{r echo=FALSE,out.width='30%',fig.align='center'}
+```{r echo=FALSE,out.width='26%',fig.align='center'}
 knitr::include_graphics('image/UNEP-2011.jpg')
 ```
-
+<center>Source:[UNEP](https://www.unep.org/resources/report/environmental-assessment-ogoniland)
 ---
 #The Sendai Framework
 The Sendai Framework focuses on the adoption of measures which address the **three dimensions of disaster risk** (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to **prevent the creation of new risk, reduce existing risk and increase resilience**.
@@ -142,18 +144,13 @@ The Sendai Framework focuses on the adoption of measures which address the **thr
 
 - Priority 4: Enhancing disaster preparedness for effective response and to "Build Back Better" in recovery, rehabilitation and reconstruction
 
+<center>Source:[Sendai Framework for Disaster Risk Reduction 2015-2030](https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030)
 ---
 #The Sendai Framework
 ##Priority 1: Understanding disaster risk
 - Policies and practices for disaster risk management should be based on an understanding of disaster risk in all its dimensions of **vulnerability, capacity, exposure of persons and assets, hazard characteristics and the environment**.
 
 - Such knowledge can be leveraged for the purpose of **pre-disaster risk assessment**, for prevention and mitigation and for the development and implementation of appropriate preparedness and effective response to disasters.
----
-#Oil Spill Response and Clean-up 
-
-```{r echo=FALSE,out.width='60%',fig.align='center'}
-knitr::include_graphics('image/Pyramid lists.jpg')
-```
 ---
 #Oil Spill Response and Clean-up 
 
@@ -164,6 +161,7 @@ knitr::include_graphics('image/Pyramid lists.jpg')
 ```{r echo=FALSE,out.width='50%',fig.align='center'}
 knitr::include_graphics('image/OIP.jpg')
 ```
+<center>Source:[NOSDRA](https://nosdra.gov.ng/)
 ---
 #Oil Spill Response and Clean-up 
 ###The National Oil Spill Detection and Response Agency (NOSDRA) :the principal agency 
@@ -260,14 +258,35 @@ Impact of this project：
 - promote social stability and enhance community safety
 ---
 #References
-Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204. Available at: https://doi.org/10.1007/s12665-020-08957-w.
-
-Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. Available at: https://doi.org/10.1016/j.oceaneng.2022.110569.
-
 “AN ENVIRONMENTAL GENOCIDE.” Report.bayelsacommission.org, Available at: https://report.bayelsacommission.org/.
 
 “As Shell, Eni Quit Niger Delta, State-Backed Report Describes Legacy of Carnage.” Mongabay Environmental News, 16 May 2023, Available at: https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/
 
+Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204.
+
+Ebeku, K. S. (2007). Constitutional right to a healthy environment and human rights approaches to environmental protection in Nigeria: Gbemre v. Shell revisited. Review of European Community & International Environmental Law, 16(3), 312-320.
+
+Edemadide, B. E. (2023). ENFORCEMENT OF REGULATORY STANDARDS FOR ENVIRONMENTAL PROTECTION IN NIGERIA: A LEGAL REVIEW. AJIEEL, 8(01), 41-56.
+---
+#References
+Elenwo, E. I., & Akankali, J. A. (2014). Environmental policies and strategies in Nigeria oil and gas industry: gains, challenges and prospects. Natural Resources, 5(14), 884.
+
 Ekott, Ini. “For Weary Niger Delta Residents, Shocking Oil Pollution Report Offers Little Hope.” Mongabay Environmental News, 16 May 2023, news.Available at: https://news.mongabay.com/2023/05/for-weary-niger-delta-residents-shocking-oil-pollution-report-offers-little-hope/
 
+National Oil Spill Detection and Response Agency. (n.d.). Homepage. Retrieved March 16, 2024, from https://nosdra.gov.ng/
+
+Konne, B. R. (2014). Inadequate monitoring and enforcement in the Nigerian oil industry: the case of shell and Ogoniland. Cornell Int'l LJ, 47, 181.
+
+OLUJOBI, O. J., OLUJOBI, O. M., & Ufua, D. E. (2020). A critical appraisal of legal framework on deregulation of the downstream sector of the Nigerian Petroleum Industry.
+---
+#References
+Udok, U., & Akpan, E. B. (2017). Gas flaring in Nigeria: Problems and prospects. Global Journal of Politics and Law Research, 5(1), 16-28.
+
+United Nations Office for Disaster Risk Reduction. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030
+
+United Nations Environment Programme. (2011). The 2011 Environmental Assessment of Ogoniland. https://www.unep.org/resources/report/environmental-assessment-ogoniland
+
+United Nations. (2015). The 2030 Agenda for Sustainable Development. (https://sdgs.un.org/goals)
+
+Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. 
 
