@@ -31,20 +31,17 @@ class: center, middle, inverse, title-slide
 
 ---
 
-class: center,middle
+class: background,center,middle
 #Problem:context &amp; background
 ---
 #People of the Niger Delta Suffer from Oil Spills for Over Fifty Years
 &lt;img src="image/oil-spill.jpg" width="48%" /&gt;
 &lt;img src="image/gas-flare.jpg" width="48%" /&gt;
-
 &lt;center&gt;Image credit: [As Shell, Eni quit Niger Delta, state-backed report describes legacy of carnage](https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/)
 ---
 #Location
 * The Niger Delta region, situated in **southern Nigeria**,is formed by the alluvial waters of the **Niger River**.
-
-* The Niger Delta is the **largest wetland** in Africa and among the largest globally.
-
+* The Niger Delta is the **largest wetland** in Africa and among the largest globally.This region spans approximately 70,000 square kilometers and has diverse ecosystems, including mangroves, swamps, and tropical rainforests.
 &lt;img src="image/STS61C-42-72.jpg" width="45%" style="display: block; margin: auto;" /&gt;
 &lt;center&gt;Source:[Wikipedia-The Niger Delta](https://en.wikipedia.org/wiki/Niger_Delta)
 ---
@@ -55,25 +52,64 @@ class: center,middle
 
 &lt;img src="image/niger 1.jpg" width="60%" style="display: block; margin: auto;" /&gt;
 &lt;center&gt;Source:[Akinola S.,2020](https://www.sciencedirect.com/science/article/pii/S0269749120362333)
-
 ---
 #Impact
+&lt;div class="tabs"&gt;
+  &lt;button class="tab-button" onclick="showContent('Environmental', event)"&gt;Environmental&lt;/button&gt;
+  &lt;button class="tab-button" onclick="showContent('Economic', event)"&gt;Economic&lt;/button&gt;
+  &lt;button class="tab-button" onclick="showContent('Social', event)"&gt;Social&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id="Environmental" class="tab-content"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Massive environmental degradation&lt;/li&gt;
+    &lt;li&gt;Loss of biodiversity&lt;/li&gt;
+    &lt;li&gt;Vegetation removal&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
 
-##Environmental
-- Massive environmental degradation
-- Loss of biodiversity
-- Vegetation removal
+&lt;div id="Economic" class="tab-content" style="display:none"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Agricultural lands therein have become unproductive&lt;/li&gt;
+    &lt;li&gt;Fishing unsustainable&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
 
-##Economic
-- Agricultural lands therein have become unproductive
-- Fishing unsustainable
+&lt;div id="Social" class="tab-content" style="display:none"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;The health hazards posed by nearby oil wells and facilities&lt;/li&gt;
+    &lt;li&gt;The deplorable state of the natural environment further depreciates the standard of living&lt;/li&gt;
+    &lt;li&gt;Triggered socio-environmental upheavals&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+  // Default open tab
+  showContent('Environmental');
+});
 
-##Social
-- The health hazards posed by nearby oil wells and facilities
-- The deplorable state of the natural environment further depreciates the standard of living of the Niger Delta inhabitants
-- Triggered socio-environmental upheavals
+function showContent(tabName, event) {
+  var i, tabcontent, tabbuttons;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i &lt; tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tabbuttons = document.getElementsByClassName("tab-button");
+  for (i = 0; i &lt; tabbuttons.length; i++) {
+    tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  if (event) {
+    event.currentTarget.className += " active";
+  } else {
+    // Set the first tab as active by default if no event is provided
+    document.getElementsByClassName("tab-button")[0].className += " active";
+  }
+}
+&lt;/script&gt;
 ---
-class: center,middle
+
+---
+class: background,center,middle
 #Policies
 ---
 #UN Sustainable Development Goals
