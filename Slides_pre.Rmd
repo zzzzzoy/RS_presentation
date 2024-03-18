@@ -223,16 +223,23 @@ class: background, middle, center
 ---
 
 #Project Timeline
-1. The project is scheduled to be completed in 12 weeks.
+1. The project is scheduled to be completed in 14 weeks.
 
 1. Project Management Institute (PMI) breaks down the project lifecycle into the following five phases of project management: initiation, planning, execution, monitoring and control, closure. 
 
-![A table of timeline](image/Timeline.png)
+![A table of timeline](image/02.png)
 ---
 
 #Budget Breakdown
-![A table of budget](image/budget.png)
+![A table of budget](image/01.png)
 ---
+
+#Budget Breakdown
+* Budget allocation on oil pollution and remediation measures
+![A table of budget](image/03.png)
+
+---
+
 #Limitations & Mitigation
 .pull-left[
 ##Limitations
