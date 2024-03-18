@@ -100,8 +100,8 @@ function showContent(tabName, event) {
 </script>
 ---
 class: background,center,middle
-###Therefore, we plan to use earth observation data to accurately detect the **distribution and concentration** of oil facilities in the Nigeria Delta region and monitor the **oil spill risk levels** in different areas. This allows us to respond to oil spills promptly and accurately and manage them effectively
->>>>>>> 766643894ab51bcb067da31dbba11b6754f8e150
+###Therefore, we plan to use earth observation data to accurately detect the <span style="color:#1C5FA3;">**distribution and concentration**</span> of oil facilities in the Nigeria Delta region and monitor the <span style="color:#1C5FA3;">**oil spill risk levels**</span> in different areas. This allows us to respond to oil spills promptly and accurately and manage them effectively
+
 ---
 class: background,center,middle
 #**Policies**
@@ -265,7 +265,7 @@ class: background, middle, center
 #**Summary**
 ---
 #Summary
-The Niger Delta has long suffered from the dangers of oil spills, and the public has generally demanded <span style="color:#4487CC;">**effective**</span> oil spill management. However, efforts to contain these leaks are hampered by a lack of <span style="color:#4487CC;">**accurate**</span> and <span style="color:#4487CC;">**real-time**</span> information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
+The Niger Delta has long suffered from the dangers of oil spills, and the public has generally demanded <span style="color:#1C5FA3;">**effective**</span> oil spill management. However, efforts to contain these leaks are hampered by a lack of <span style="color:#1C5FA3;">**accurate**</span> and <span style="color:#1C5FA3;">**real-time**</span> information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
 
 ###Impact of this project：
 - Enhance the **health** and **well-being** of residents
