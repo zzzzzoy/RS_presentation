@@ -3,7 +3,7 @@
   <head>
     <title>Potential Remedies to Oil Spill Pollution</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Y.Li, Y.Niu, Y.Yang, Z.Ouyang" />
+    <meta name="author" content="Yihan Li, Yuqing Niu, Siyu Yang, Zhongzhen Ouyang" />
     <script src="libs/header-attrs-2.26/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -20,7 +20,7 @@ class: center, middle, inverse, title-slide
 ## Niger Delta of Nigeria
 ]
 .author[
-### Y.Li, Y.Niu, Y.Yang, Z.Ouyang
+### Yihan Li, Yuqing Niu, Siyu Yang, Zhongzhen Ouyang
 ]
 .institute[
 ### CASA0023
@@ -31,20 +31,18 @@ class: center, middle, inverse, title-slide
 
 ---
 
-class: center,middle
-#Problem:context &amp; background
+class: background,center,middle
+#**Problem:context &amp; background**
+
 ---
 #People of the Niger Delta Suffer from Oil Spills for Over Fifty Years
 &lt;img src="image/oil-spill.jpg" width="48%" /&gt;
 &lt;img src="image/gas-flare.jpg" width="48%" /&gt;
-
 &lt;center&gt;Image credit: [As Shell, Eni quit Niger Delta, state-backed report describes legacy of carnage](https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/)
 ---
 #Location
 * The Niger Delta region, situated in **southern Nigeria**,is formed by the alluvial waters of the **Niger River**.
-
-* The Niger Delta is the **largest wetland** in Africa and among the largest globally.
-
+* The Niger Delta is the **largest wetland** in Africa and among the largest globally.This region spans approximately **70,000** square kilometers and has **diverse ecosystems**, including mangroves, swamps, and tropical rainforests.
 &lt;img src="image/STS61C-42-72.jpg" width="45%" style="display: block; margin: auto;" /&gt;
 &lt;center&gt;Source:[Wikipedia-The Niger Delta](https://en.wikipedia.org/wiki/Niger_Delta)
 ---
@@ -55,26 +53,67 @@ class: center,middle
 
 &lt;img src="image/niger 1.jpg" width="60%" style="display: block; margin: auto;" /&gt;
 &lt;center&gt;Source:[Akinola S.,2020](https://www.sciencedirect.com/science/article/pii/S0269749120362333)
-
 ---
 #Impact
+&lt;div class="tabs"&gt;
+  &lt;button class="tab-button" onclick="showContent('Environmental', event)"&gt;Environmental&lt;/button&gt;
+  &lt;button class="tab-button" onclick="showContent('Economic', event)"&gt;Economic&lt;/button&gt;
+  &lt;button class="tab-button" onclick="showContent('Social', event)"&gt;Social&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id="Environmental" class="tab-content"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Massive environmental degradation&lt;/li&gt;
+    &lt;li&gt;Vegetation removal&lt;/li&gt;
+    &lt;li&gt;Loss of biodiversity&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
 
-##Environmental
-- Massive environmental degradation
-- Loss of biodiversity
-- Vegetation removal
+&lt;div id="Economic" class="tab-content" style="display:none"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Agricultural lands therein have become unproductive&lt;/li&gt;
+    &lt;li&gt;Fishing unsustainable&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
 
-##Economic
-- Agricultural lands therein have become unproductive
-- Fishing unsustainable
+&lt;div id="Social" class="tab-content" style="display:none"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;The health hazards posed by nearby oil wells and facilities&lt;/li&gt;
+    &lt;li&gt;loss of jobs and heightened restiveness often ensue&lt;/li&gt;
+    &lt;li&gt;Triggered socio-environmental upheavals&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener("DOMContentLoaded", function() {
+  // Default open tab
+  showContent('Environmental');
+});
 
-##Social
-- The health hazards posed by nearby oil wells and facilities
-- The deplorable state of the natural environment further depreciates the standard of living of the Niger Delta inhabitants
-- Triggered socio-environmental upheavals
+function showContent(tabName, event) {
+  var i, tabcontent, tabbuttons;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i &lt; tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tabbuttons = document.getElementsByClassName("tab-button");
+  for (i = 0; i &lt; tabbuttons.length; i++) {
+    tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  if (event) {
+    event.currentTarget.className += " active";
+  } else {
+    // Set the first tab as active by default if no event is provided
+    document.getElementsByClassName("tab-button")[0].className += " active";
+  }
+}
+&lt;/script&gt;
 ---
-class: center,middle
-#Policies
+class: background,center,middle
+###Therefore, we plan to use earth observation data to accurately detect the **distribution and concentration** of oil facilities in the Nigeria Delta region and monitor the **oil spill risk levels** in different areas. This allows us to respond to oil spills promptly and accurately and manage them effectively
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 766643894ab51bcb067da31dbba11b6754f8e150
+---
+class: background,center,middle
+#**Policies**
 ---
 #UN Sustainable Development Goals
 .pull-left[
@@ -89,6 +128,8 @@ Improve water quality by **reducing pollution**,eliminating dumping and minimizi
 ###LIFE BELOW WATER
 Sustainably manage and protect marine and coastal ecosystems from **pollution**, as well as address the impacts of ocean acidification. 
 ]
+
+&lt;center&gt;Source:[The 2030 Agenda for Sustainable Development](https://sdgs.un.org/goals)
 ---
 #UNEP and Nigeria           
 United Nations Environment Programme (UNEP) has conducted assessments and published reports on the environmental impacts of oil spills in Nigeria, particularly in the Niger Delta region. 
@@ -96,8 +137,8 @@ United Nations Environment Programme (UNEP) has conducted assessments and publis
 These reports, such as the 2011 Environmental Assessment of Ogoniland, provide valuable insights into the extent and consequences of oil pollution in the country.
 
 
-&lt;img src="image/UNEP-2011.jpg" width="30%" style="display: block; margin: auto;" /&gt;
-
+&lt;img src="image/UNEP-2011.jpg" width="26%" style="display: block; margin: auto;" /&gt;
+&lt;center&gt;Source:[UNEP](https://www.unep.org/resources/report/environmental-assessment-ogoniland)
 ---
 #The Sendai Framework
 The Sendai Framework focuses on the adoption of measures which address the **three dimensions of disaster risk** (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to **prevent the creation of new risk, reduce existing risk and increase resilience**.
@@ -109,6 +150,7 @@ The Sendai Framework focuses on the adoption of measures which address the **thr
 
 - Priority 4: Enhancing disaster preparedness for effective response and to "Build Back Better" in recovery, rehabilitation and reconstruction
 
+&lt;center&gt;Source:[Sendai Framework for Disaster Risk Reduction 2015-2030](https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030)
 ---
 #The Sendai Framework
 ##Priority 1: Understanding disaster risk
@@ -118,15 +160,12 @@ The Sendai Framework focuses on the adoption of measures which address the **thr
 ---
 #Oil Spill Response and Clean-up 
 
-&lt;img src="image/Pyramid lists.jpg" width="60%" style="display: block; margin: auto;" /&gt;
----
-#Oil Spill Response and Clean-up 
-
 - Nigeria has a comprehensive legal and regulatory framework governing oil production and waste management, like the Petroleum Act, Oil Pipelines Act, EIA Act, NOSDRA Act, NESREA Act, NDDC Act, and DPR Guidelines and Standards. 
 
 - However, the overall effectiveness still remains **limited** due to factors like **delayed response, inadequate resources, and insufficient technical expertise**.
 
 &lt;img src="image/OIP.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+&lt;center&gt;Source:[NOSDRA](https://nosdra.gov.ng/)
 ---
 #Oil Spill Response and Clean-up 
 ###The National Oil Spill Detection and Response Agency (NOSDRA) :the principal agency 
@@ -137,20 +176,21 @@ The Sendai Framework focuses on the adoption of measures which address the **thr
 NOSDRA also works closely with **the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies **to detect, monitor, and respond to oil spill incidents. 
 &lt;img src="image/NOSDRA.jpg" width="30%" style="display: block; margin: auto;" /&gt;
 ---
-class: center,middle
-#Data and Methods
+class:background,center,middle
+#**Data and Methods**
 ---
-##Geospatial data
+##Geospatial data(for visualization)
 - Oil spill data
 - Oil well data
 - Oil pipelines data
+- Data sets have been pre processed using R, consisting of some attributes plus a geometry column.
 
-##EO data
-- Land cover data(10m resolution)
+##EO data(for risk assessment)
+- Land cover data(10m resolution) is extracted from a 2016 Sentinel-based map and validated by a 2006 FAO map
 - SPOT 6 DEM and Imagery(20m resolution)
 
-##Other
-- soil map data
+##Other(for risk assessment)
+- The soil map is extracted from FAO's soil map and rasterized
 
 ---
 class: middle
@@ -161,21 +201,22 @@ class: middle
 
 ![A table of budget](image/1-s2.0-S0029801822000439-gr31_lrg.jpg)
 
-&lt;center&gt;(source: Wang et al., 2022)&lt;/center&gt;
+&lt;center&gt;Source: Wang et al., 2022&lt;/center&gt;
 ---
+
 ##Risk assessment
 - GIS-based fuzzy logic model (FLM)
 - five classes: Very High risk (VHR), High risk (HR), Moderate risk (MR), Low risk (LR), and Very Low risk (VLR)
-###hazard map
+###hazard map(1)
 - oil facilities or oil well, flow station, terminal, and pipeline
-###vulnerability map
+###vulnerability map(2)
 - land use/land cover, soil type, and topographic curvature
-###risk assessment map
+###risk assessment map(1+2)
 - integration of the generated hazard and vulnerability maps
 
 ---
 ![A table of budget](image/12665_2020_8957_Fig5_HTML.png)
-&lt;center&gt;(source: Baharvand et al., 2020)&lt;/center&gt;
+&lt;center&gt;Source: Baharvand et al., 2020&lt;/center&gt;
 ---
 
 class: background, middle, center
@@ -183,26 +224,82 @@ class: background, middle, center
 ---
 
 #Project Timeline
-1. The project is scheduled to be completed in 12 weeks.
+1. The project is scheduled to be completed in 14 weeks.
 
 1. Project Management Institute (PMI) breaks down the project lifecycle into the following five phases of project management: initiation, planning, execution, monitoring and control, closure. 
 
-![A table of timeline](image/Timeline.png)
+![A table of timeline](image/02.png)
 ---
 
 #Budget Breakdown
-![A table of budget](image/budget.png)
+![A table of budget](image/01.png)
 ---
 
+#Budget Breakdown
+* Budget allocation on oil pollution and remediation measures
+![A table of budget](image/03.png)
+
+---
+
+#Limitations &amp; Mitigation
+.pull-left[
+##Limitations
+* Secondary pollution caused by remediation measures
+* Possible economic losses (due to reduced oil exports)
+* political and legal obstacles
+]
+
+.pull-right[
+##Mitigation
+* environmentally sustainable cleanup strategies
+* Economic diversification and increased social participation
+* Strengthen communication with the government
+]
+---
 class: background, middle, center
 #**Summary**
-
 ---
+#Summary
+The Niger Delta has long suffered from the Dangers of oil spills, and the public has generally demanded effective oil spill management. However, efforts to contain these leaks are hampered by a lack of accurate and real-time information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
 
+Impact of this project：
+- Enhance the health and well-being of residents
+- Stimulate economic development and create job opportunities
+- Foster environmental sustainability and resilience
+- promote social stability and enhance community safety
+---
 #References
-Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204. Available at: https://doi.org/10.1007/s12665-020-08957-w.
+“AN ENVIRONMENTAL GENOCIDE.” Report.bayelsacommission.org, Available at: https://report.bayelsacommission.org/.
 
-Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. Available at: https://doi.org/10.1016/j.oceaneng.2022.110569.
+“As Shell, Eni Quit Niger Delta, State-Backed Report Describes Legacy of Carnage.” Mongabay Environmental News, 16 May 2023, Available at: https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/
+
+Baharvand, S. *et al.* (2020) ‘Landslide susceptibility zoning in a catchment of Zagros Mountains using fuzzy logic and GIS’, *Environmental Earth Sciences*, 79(10), p. 204.
+
+Ebeku, K. S. (2007). Constitutional right to a healthy environment and human rights approaches to environmental protection in Nigeria: Gbemre v. Shell revisited. Review of European Community &amp; International Environmental Law, 16(3), 312-320.
+
+Edemadide, B. E. (2023). ENFORCEMENT OF REGULATORY STANDARDS FOR ENVIRONMENTAL PROTECTION IN NIGERIA: A LEGAL REVIEW. AJIEEL, 8(01), 41-56.
+---
+#References
+Elenwo, E. I., &amp; Akankali, J. A. (2014). Environmental policies and strategies in Nigeria oil and gas industry: gains, challenges and prospects. Natural Resources, 5(14), 884.
+
+Ekott, Ini. “For Weary Niger Delta Residents, Shocking Oil Pollution Report Offers Little Hope.” Mongabay Environmental News, 16 May 2023, news.Available at: https://news.mongabay.com/2023/05/for-weary-niger-delta-residents-shocking-oil-pollution-report-offers-little-hope/
+
+National Oil Spill Detection and Response Agency. (n.d.). Homepage. Retrieved March 16, 2024, from https://nosdra.gov.ng/
+
+Konne, B. R. (2014). Inadequate monitoring and enforcement in the Nigerian oil industry: the case of shell and Ogoniland. Cornell Int'l LJ, 47, 181.
+
+OLUJOBI, O. J., OLUJOBI, O. M., &amp; Ufua, D. E. (2020). A critical appraisal of legal framework on deregulation of the downstream sector of the Nigerian Petroleum Industry.
+---
+#References
+Udok, U., &amp; Akpan, E. B. (2017). Gas flaring in Nigeria: Problems and prospects. Global Journal of Politics and Law Research, 5(1), 16-28.
+
+United Nations Office for Disaster Risk Reduction. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030
+
+United Nations Environment Programme. (2011). The 2011 Environmental Assessment of Ogoniland. https://www.unep.org/resources/report/environmental-assessment-ogoniland
+
+United Nations. (2015). The 2030 Agenda for Sustainable Development. https://sdgs.un.org/goals
+
+Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. 
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
