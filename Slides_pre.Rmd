@@ -188,7 +188,7 @@ class:background,center,middle
 - SPOT 6 DEM and Imagery(20m resolution)
 
 ##Other
-- soil map data is extracted from FAO's soil map and rasterized
+- The soil map is extracted from FAO's soil map and rasterized
 
 ---
 class: middle
