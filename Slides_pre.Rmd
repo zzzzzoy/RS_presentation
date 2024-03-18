@@ -2,7 +2,7 @@
 title: "Potential Remedies to Oil Spill Pollution"
 subtitle: "Niger Delta of Nigeria"
 institute: "CASA0023"
-author: "Y.Li, Y.Niu, Y.Yang, Z.Ouyang"
+author: "Yihan Li, Yuqing Niu, Siyu Yang, Zhongzhen Ouyang"
 date: "2024/3/19"
 output:
   xaringan::moon_reader:
@@ -198,7 +198,7 @@ class: middle
 
 ![A table of budget](image/1-s2.0-S0029801822000439-gr31_lrg.jpg)
 
-<center>(source: Wang et al., 2022)</center>
+<center>Source: Wang et al., 2022</center>
 ---
 ##Risk assessment
 - GIS-based fuzzy logic model (FLM)
@@ -212,7 +212,7 @@ class: middle
 
 ---
 ![A table of budget](image/12665_2020_8957_Fig5_HTML.png)
-<center>(source: Baharvand et al., 2020)</center>
+<center>Source: Baharvand et al., 2020</center>
 ---
 
 class: background, middle, center
@@ -286,7 +286,7 @@ United Nations Office for Disaster Risk Reduction. (2015). Sendai Framework for 
 
 United Nations Environment Programme. (2011). The 2011 Environmental Assessment of Ogoniland. https://www.unep.org/resources/report/environmental-assessment-ogoniland
 
-United Nations. (2015). The 2030 Agenda for Sustainable Development. (https://sdgs.un.org/goals)
+United Nations. (2015). The 2030 Agenda for Sustainable Development. https://sdgs.un.org/goals
 
 Wang, H. *et al.* (2022) ‘GIS-based analysis on the spatial patterns of global maritime accidents’, *Ocean Engineering*, 245, p. 110569. 
 
