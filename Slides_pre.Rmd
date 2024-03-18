@@ -6,7 +6,7 @@ author: "Yihan Li, Yuqing Niu, Siyu Yang, Zhongzhen Ouyang"
 date: "2024/3/19"
 output:
   xaringan::moon_reader:
-    css: ["default", "default-fonts", "style.css"]
+    css: ["default", "default-fonts", "rladies-fonts", "style.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -25,20 +25,22 @@ knitr::include_graphics('image/oil-spill.jpg')
 ```{r echo=FALSE, out.width='48%',fig.show='hold'}
 knitr::include_graphics('image/gas-flare.jpg')
 ```
+
 <center>Image credit: [As Shell, Eni quit Niger Delta, state-backed report describes legacy of carnage](https://news.mongabay.com/2023/05/as-shell-eni-quit-niger-delta-state-backed-report-describes-legacy-of-carnage/)
 ---
 #Location
-* The Niger Delta region, situated in **southern Nigeria**,is formed by the alluvial waters of the **Niger River**.
-* The Niger Delta is the **largest wetland** in Africa and among the largest globally.This region spans approximately **70,000** square kilometers and has **diverse ecosystems**, including mangroves, swamps, and tropical rainforests.
+* The Niger Delta region, situated in <span style="color:#1C5FA3;">**southern Nigeria**</span>,is formed by the alluvial waters of the <span style="color:#1C5FA3;">**Niger River**</span>.
+* The Niger Delta is the <span style="color:#1C5FA3;">**largest wetland**</span> in Africa and among the largest globally.This region spans approximately <span style="color:#1C5FA3;">**70,000**</span> square kilometers and has <span style="color:#1C5FA3;">**diverse ecosystems**</span>, including mangroves, swamps, and tropical rainforests.
+
 ```{r echo=FALSE,out.width='45%',out.height=='35%',fig.align='center'}
 knitr::include_graphics('image/STS61C-42-72.jpg')
 ```
 <center>Source:[Wikipedia-The Niger Delta](https://en.wikipedia.org/wiki/Niger_Delta)
 ---
 #Problem statement
-* Over the past 50 years, it's estimated that more than **1.5 million tons of oil** have spilled in the Niger Delta.
+* Over the past 50 years, it's estimated that more than <span style="color:#1C5FA3;">**1.5 million tons of oil**</span> have spilled in the Niger Delta.
 
-* Residential areas in **nine districts** of the delta suffer from **oil spills** every year due to **accidental discharges** and **operational spills**.
+* Residential areas in <span style="color:#1C5FA3;">**nine districts**</span> of the delta suffer from <span style="color:#1C5FA3;">**oil spills**</span> every year due to <span style="color:#1C5FA3;">**accidental discharges**</span> and <span style="color:#1C5FA3;">**operational spills**</span>.
 
 ```{r echo=FALSE, out.width='60%',fig.align='center'}
 knitr::include_graphics('image/niger 1.jpg')
@@ -113,7 +115,7 @@ knitr::include_graphics('image/UN6.jpg')
 ```
 ###Goal 6 
 ###CLEAN WATER AND SANITATION
-Improve water quality by **reducing pollution**,eliminating dumping and minimizing release of hazardous chemicals and materials.
+Improve water quality by <span style="color:#1C5FA3;">**reducing pollution**</span>,eliminating dumping and minimizing release of hazardous chemicals and materials.
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='30%'}
@@ -121,7 +123,7 @@ knitr::include_graphics('image/UN14.jpg')
 ```
 ###Goal 14 
 ###LIFE BELOW WATER
-Sustainably manage and protect marine and coastal ecosystems from **pollution**, as well as address the impacts of ocean acidification. 
+Sustainably manage and protect marine and coastal ecosystems from <span style="color:#1C5FA3;">**pollution**</span>, as well as address the impacts of ocean acidification. 
 ]
 
 <center>Source:[The 2030 Agenda for Sustainable Development](https://sdgs.un.org/goals)
@@ -138,7 +140,7 @@ knitr::include_graphics('image/UNEP-2011.jpg')
 <center>Source:[UNEP](https://www.unep.org/resources/report/environmental-assessment-ogoniland)
 ---
 #The Sendai Framework
-The Sendai Framework focuses on the adoption of measures which address the **three dimensions of disaster risk** (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to **prevent the creation of new risk, reduce existing risk and increase resilience**.
+The Sendai Framework focuses on the adoption of measures which address the  <span style="color:#1C5FA3;">**three dimensions of disaster risk**</span> (exposure to hazards, vulnerability and capacity, and hazard’s characteristics) in order to  <span style="color:#1C5FA3;">**prevent the creation of new risk, reduce existing risk and increase resilience**</span>.
 - Priority 1: Understanding disaster risk
 
 - Priority 2: Strengthening disaster risk governance to manage disaster risk  
@@ -159,7 +161,7 @@ The Sendai Framework focuses on the adoption of measures which address the **thr
 
 - Nigeria has a comprehensive legal and regulatory framework governing oil production and waste management, like the Petroleum Act, Oil Pipelines Act, EIA Act, NOSDRA Act, NESREA Act, NDDC Act, and DPR Guidelines and Standards. 
 
-- However, the overall effectiveness still remains **limited** due to factors like **delayed response, inadequate resources, and insufficient technical expertise**.
+- However, the overall effectiveness still remains <span style="color:#1C5FA3;">**limited**</span> due to factors like <span style="color:#1C5FA3;">**delayed response, inadequate resources, and insufficient technical expertise**</span>.
 
 ```{r echo=FALSE,out.width='50%',fig.align='center'}
 knitr::include_graphics('image/OIP.jpg')
@@ -168,11 +170,11 @@ knitr::include_graphics('image/OIP.jpg')
 ---
 #Oil Spill Response and Clean-up 
 ###The National Oil Spill Detection and Response Agency (NOSDRA) :the principal agency 
-- Coordinate oil spill **preparedness, detection, response, and remediation efforts** across federal, state, and local government levels. 
+- Coordinate oil spill  <span style="color:#1C5FA3;">**preparedness, detection, response, and remediation efforts**</span> across federal, state, and local government levels. 
 
-- Enforce compliance with environmental regulations, conducting investigations into oil spills, and implementing measures to **prevent future incidents**. 
+- Enforce compliance with environmental regulations, conducting investigations into oil spills, and implementing measures to  <span style="color:#1C5FA3;">**prevent future incidents**</span>. 
 
-NOSDRA also works closely with **the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies **to detect, monitor, and respond to oil spill incidents. 
+NOSDRA also works closely with  <span style="color:#1C5FA3;">**the Department of Petroleum Resources (DPR), the Nigerian Navy, and other relevant agencies **</span>to detect, monitor, and respond to oil spill incidents. 
 ```{r echo=FALSE,out.width='30%',fig.align='center'}
 knitr::include_graphics('image/NOSDRA.jpg')
 ```
@@ -216,7 +218,11 @@ class: middle
 - integration of the generated hazard and vulnerability maps
 
 ---
-![A table of budget](image/12665_2020_8957_Fig5_HTML.png)
+
+# An example of risk assessment map
+```{r echo=FALSE,out.width='75%',fig.align='center'}
+knitr::include_graphics('image/12665_2020_8957_Fig5_HTML.png')
+```
 <center>Source: Baharvand et al., 2020</center>
 ---
 
@@ -268,14 +274,15 @@ class: background, middle, center
 The Niger Delta has long suffered from the dangers of oil spills, and the public has generally demanded <span style="color:#1C5FA3;">**effective**</span> oil spill management. However, efforts to contain these leaks are hampered by a lack of <span style="color:#1C5FA3;">**accurate**</span> and <span style="color:#1C5FA3;">**real-time**</span> information. Therefore, our goal is to use geospatial technology to accurately and timely identify and manage oil spills, providing targeted and effective methods to mitigate damage.
 
 ###Impact of this project：
-- Enhance the **health** and **well-being** of residents
+- Enhance the <span style="color:#1C5FA3;">**health**</span> and <span style="color:#1C5FA3;">**well-being**</span> of residents
 
-- Stimulate **economic** development and create **job opportunities**
+- Stimulate <span style="color:#1C5FA3;">**economic**</span> development and create <span style="color:#1C5FA3;">**job opportunities**</span>
 
-- Foster **environmental** sustainability and resilience
+- Foster <span style="color:#1C5FA3;">**environmental**</span> sustainability and resilience
 
-- promote **social** stability and enhance **community** safety
+- promote <span style="color:#1C5FA3;">**social**</span> stability and enhance <span style="color:#1C5FA3;">**community**</span> safety
 ---
+
 #References
 “AN ENVIRONMENTAL GENOCIDE.” Report.bayelsacommission.org, Available at: https://report.bayelsacommission.org/.
 
