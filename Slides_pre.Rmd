@@ -178,7 +178,7 @@ knitr::include_graphics('image/NOSDRA.jpg')
 class:background,center,middle
 #**Data and Methods**
 ---
-##Geospatial data(for Geospatial modeling)
+##Geospatial data(for visualization)
 - Oil spill data
 - Oil well data
 - Oil pipelines data
